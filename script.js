@@ -39,5 +39,12 @@ else{
 }
 
 
+function newCard(){
+    
+    let card=6
+    sum+=card
+    sum=sum+card
+}
+
 
 
