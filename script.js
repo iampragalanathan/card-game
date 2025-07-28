@@ -1,22 +1,24 @@
-let firstCard=3
-let secondCard=6
+// let firstCard=3
+// let secondCard=6
 
-sum=firstCard+secondCard+13
-console.log(sum)
+// sum=firstCard+secondCard+13
+// console.log(sum)
 
-if(sum === 21){
+// if(sum === 21){
 
-    console.log("you won balackjack")
-}
-else if(sum <= 20){
+//     console.log("you won balackjack")
+// }
+// else if(sum <= 20){
 
-    console.log("you can get a new card")
-}
-else{
+//     console.log("you can get a new card")
+// }
+// else{
 
-    console.log("you are out of the game")
-}
+//     console.log("you are out of the game")
+// }
 
+
+// ================================================
 
 
 
