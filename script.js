@@ -5,6 +5,8 @@ let sum=firstCard+secondCard+12
 let hasBlackJack=false
 let isAlive=true
 let message=""
+let messageEl=document.getElementById("message-el")
+
 
 if(sum === 21){
 
@@ -28,6 +30,9 @@ else{
     // isAlive=false
     // console.log("this is else stmt" ,isAlive)
 }
+messageEl.textContent=message
+
+
 
 
 
