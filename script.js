@@ -30,11 +30,14 @@ else{
     // isAlive=false
     // console.log("this is else stmt" ,isAlive)
 }
-messageEl.textContent=message
 
 
 
 
+function startGame(){
+
+    messageEl.textContent=message
+}
 
 
 
