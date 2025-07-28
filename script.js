@@ -1,5 +1,5 @@
-let firstCard=3
-let secondCard=6
+let firstCard=""
+let secondCard=""
 
 let sum=firstCard+secondCard+13
 let hasBlackJack=false
