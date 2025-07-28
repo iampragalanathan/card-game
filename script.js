@@ -1,12 +1,14 @@
 let firstCard=3
 let secondCard=6
 
-let sum=firstCard+secondCard+12
+let sum=firstCard+secondCard+13
 let hasBlackJack=false
+let isAlive=true
 
 if(sum === 21){
 
     console.log("you won balackjack")
+    hasBlackJack=true
 
 
 }
@@ -18,22 +20,24 @@ else if(sum <= 20){
 else{
 
     console.log("you are out of the game")
+    isAlive=false
+    console.log("this is else stmt" ,isAlive)
 }
 
-function name(){
+// function name(){
 
-    if(sum === 21){
+//     if(sum === 21){
 
-    console.log("you won balackjack")
-    hasBlackJack
-}
-    else{
-        console.log("sorry you dont't have a coupon")
-    }
-}
+//     console.log("you won balackjack")
+//     hasBlackJack=true
+// }
+//     else{
+//         console.log("sorry you dont't have a coupon")
+//     }
+// }
 
-name()
-name()
+// name()
+// name()
 
 
 // ================================================
