@@ -21,9 +21,22 @@
 // ================================================
 
 
+let hasDiscountCode=true;
 
+function name(){
 
+    if (hasDiscountCode){
 
+        console.log("you can get 30% offer")
+        hasDiscountCode=false
+        console.log(hasDiscountCode)
+    }
+    else{
+        console.log("sorry you dont't have a coupon")
+    }
+}
+
+name()
 
 
 
