@@ -1,14 +1,16 @@
 let firstCard=3
 let secondCard=6
 
-let sum=firstCard+secondCard+13
+let sum=firstCard+secondCard+12
 let hasBlackJack=false
 let isAlive=true
 let message=""
 let messageEl=document.getElementById("message-el")
+let sumEl=document.getElementById("sum-el")
 
+function startGame(){
 
-if(sum === 21){
+    if(sum === 21){
 
     message="you won balackjack"
     console.log(message)
@@ -30,13 +32,8 @@ else{
     // isAlive=false
     // console.log("this is else stmt" ,isAlive)
 }
-
-
-
-
-function startGame(){
-
     messageEl.textContent=message
+    sumEl.textContent="Sum : " +sum
 }
 
 
