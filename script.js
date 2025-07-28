@@ -1,6 +1,7 @@
 let firstCard=3
 let secondCard=6
 let sum=firstCard+secondCard+12
+
 let hasBlackJack=false
 let isAlive=true
 let message=""
@@ -34,7 +35,7 @@ else{
 }
     messageEl.textContent=message
     sumEl.textContent="Sum : " +sum
-    cardEl.textContent="Cards : " 
+    cardEl.textContent="Cards : " +card
 }
 
 
