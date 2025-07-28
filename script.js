@@ -1,35 +1,32 @@
-// let firstCard=3
-// let secondCard=6
+let firstCard=3
+let secondCard=6
 
-// sum=firstCard+secondCard+13
-// console.log(sum)
+let sum=firstCard+secondCard+12
+let hasBlackJack=false
 
-// if(sum === 21){
+if(sum === 21){
 
-//     console.log("you won balackjack")
-// }
-// else if(sum <= 20){
-
-//     console.log("you can get a new card")
-// }
-// else{
-
-//     console.log("you are out of the game")
-// }
+    console.log("you won balackjack")
 
 
-// ================================================
+}
+else if(sum <= 20){
 
+    console.log("you can get a new card")
 
-let hasDiscountCode=true;
+}
+else{
+
+    console.log("you are out of the game")
+}
 
 function name(){
 
-    if (hasDiscountCode){
+    if(sum === 21){
 
-        console.log("you can get 30% offer")
-       
-    }
+    console.log("you won balackjack")
+    hasBlackJack
+}
     else{
         console.log("sorry you dont't have a coupon")
     }
@@ -37,6 +34,27 @@ function name(){
 
 name()
 name()
+
+
+// ================================================
+
+
+// let hasDiscountCode=true;
+
+// function name(){
+
+//     if (hasDiscountCode){
+
+//         console.log("you can get 30% offer")
+       
+//     }
+//     else{
+//         console.log("sorry you dont't have a coupon")
+//     }
+// }
+
+// name()
+// name()
 
 
 
