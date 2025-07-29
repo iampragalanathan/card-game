@@ -112,8 +112,13 @@ function newCard(){
 
 
 function helper(){
-    let age=30
+    let age=40
     if (age<30){
-        return"you are "
+        return"you are eligible to write exam"
+    }
+    else{
+        return"you are not eligible to write exam"
     }
 }
+let messageFromFn=helper()
+console.log(messageFromFn)
