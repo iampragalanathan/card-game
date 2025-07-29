@@ -63,9 +63,10 @@ function newCard(){
 
 function getRandomCard(){
 
-    return 5
+   let randomNumber=Math.floor(Math.random()*13)+1
+   return randomNumber
 }
-
+console.log(getRandomCard())
 
 // let cards=[4,10]
 // cards.push("hello",101)
@@ -139,10 +140,19 @@ function getRandomCard(){
 // let randomNumber=Math.floor(Math.random()*6)
 // console.log(randomNumber)
 
-function rollDice(){
-    let randomDiceNumber=Math.floor(Math.random()*6)+1
+// function rollDice(){
+//     let randomDiceNumber=Math.floor(Math.random()*6)+1
     
-    return randomDiceNumber
+//     return randomDiceNumber
+//     // if(randomDiceNumber===1){
+//     //     return"hey 1 is the randomnumber"
+//     // }
+//     // else if(randomDiceNumber===2){
+//     //      return "hey 2"
+//     // }
+//     // else{
+//     //     return "three"
+//     // }
     
-}
-console.log(rollDice())
+// }
+// console.log(rollDice())
