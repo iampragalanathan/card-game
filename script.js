@@ -1,5 +1,5 @@
-let firstCard=3
-let secondCard=6
+let firstCard= getRandomCard()
+let secondCard= getRandomCard()
 let cards=[firstCard, secondCard]
 let sum=firstCard+secondCard
 
@@ -52,7 +52,7 @@ else{
 
 function newCard(){
     
-    let card=6
+    let card=getRandomCard()
     sum+=card
     // sum=sum+card
     cards.push(card)
@@ -61,6 +61,10 @@ function newCard(){
     
 }
 
+function getRandomCard(){
+
+    return 5
+}
 
 
 // let cards=[4,10]
@@ -111,23 +115,26 @@ function newCard(){
 // }
 
 
-function helper(){
-    let age=40
-    if (age<30){
-        return"you are eligible to write exam"
-    }
-    else{
-        return"you are not eligible to write exam"
-    }
-}
-let messageFromFn=helper()
-console.log(messageFromFn)
+// function helper(){
+//     let age=40
+//     if (age<30){
+//         return"you are eligible to write exam"
+//     }
+//     else{
+//         return"you are not eligible to write exam"
+//     }
+// }
+// let messageFromFn=helper()
+// console.log(messageFromFn)
 
-let a=3
-let b=6
-function mult(){
-    return a*b
-}
+// let a=3
+// let b=6
+// function mult(){
+//     return a*b
+// }
 
-let finalResult=mult()
-console.log(finalResult)
+// let finalResult=mult()
+// console.log(finalResult)
+
+let randomNumber=Math.random()
+console.log(randomNumber)
