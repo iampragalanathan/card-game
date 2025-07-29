@@ -64,7 +64,10 @@ function newCard(){
 function getRandomCard(){
 
    let randomNumber=Math.floor(Math.random()*13)+1
-   return randomNumber
+//    return randomNumber
+    if(randomNumber===1){
+        return 11
+    }
 }
 console.log(getRandomCard())
 
@@ -144,15 +147,15 @@ console.log(getRandomCard())
 //     let randomDiceNumber=Math.floor(Math.random()*6)+1
     
 //     return randomDiceNumber
-//     // if(randomDiceNumber===1){
-//     //     return"hey 1 is the randomnumber"
-//     // }
-//     // else if(randomDiceNumber===2){
-//     //      return "hey 2"
-//     // }
-//     // else{
-//     //     return "three"
-//     // }
+    // if(randomDiceNumber===1){
+    //     return"hey 1 is the randomnumber"
+    // }
+    // else if(randomDiceNumber===2){
+    //      return "hey 2"
+    // }
+    // else{
+    //     return "three"
+    // }
     
 // }
 // console.log(rollDice())
