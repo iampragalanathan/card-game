@@ -52,5 +52,6 @@ function newCard(){
     renderGame()
 }
 
+let data=["orange","apple",true,false,123]
 
 
