@@ -87,3 +87,16 @@ function newCard(){
 // for (let count=15;count>0;count=count-1){
 //     console.log(count)
 // }
+// let emojis=["smile","cool","bless","angry","laugh","new1","new2","new3","new4"]
+// for (let i=0;i<emojis.length;i++){
+
+//     console.log(emojis[i])
+
+// }
+
+let sentences=["Good Morning","Get there soon","JS is cool","React is fun","had dinner?"]
+
+for(i=0;i<sentences.length;i++){
+
+    console.log(sentences[i])
+}
