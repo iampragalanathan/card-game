@@ -136,5 +136,5 @@ function getRandomCard(){
 // let finalResult=mult()
 // console.log(finalResult)
 
-let randomNumber=Math.random()
+let randomNumber=Math.floor(Math.random()*6)
 console.log(randomNumber)
