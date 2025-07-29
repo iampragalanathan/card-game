@@ -41,7 +41,7 @@ else{
 }
     messageEl.textContent=message
     sumEl.textContent="Sum : " +sum
-    cardEl.textContent="Cards : "+firstCard + " " + secondCard
+    cardEl.textContent="Cards : "+cards[0] +" " +cards[1] 
 }
 
 
@@ -50,6 +50,8 @@ function newCard(){
     let card=6
     sum+=card
     // sum=sum+card
+    cards.push(card)
+    // console.log(cards)
     renderGame()
 }
 
