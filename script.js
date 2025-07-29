@@ -17,7 +17,11 @@ function startGame(){
 
 function renderGame(){
 
-    if(sum === 21){
+cardEl.textContent="Cards: "
+for(i=0;i<cards.length;i++){
+    cardEl.textContent+=cards[i] +" "
+}
+if(sum === 21){
 
     message="you won balackjack"
     console.log(message)
@@ -41,7 +45,8 @@ else{
 }
     messageEl.textContent=message
     sumEl.textContent="Sum : " +sum
-    cardEl.textContent="Cards : "+cards[0] +" " +cards[1] 
+    
+
 }
 
 
