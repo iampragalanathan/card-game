@@ -52,10 +52,19 @@ function newCard(){
     renderGame()
 }
 
-let data=["orange","apple",true,false,123,["hello",["innerarray","test"],123,true,false]]
-console.log(data[5][1][0])
-// console.log(data[0])
-// console.log(data[1])
-// console.log(data[2])
-// console.log(data[3])
-// console.log(data[4])
+
+
+let cards=[4,10]
+cards.push("hello",101)
+console.log(cards)
+
+cards.pop()
+console.log(cards)
+
+cards.pop()
+console.log(cards)
+
+// let newItem=("hey I am array")
+let newItem=["hey I am array"]
+cards.push(newItem)
+console.log(cards)

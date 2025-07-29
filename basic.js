@@ -116,5 +116,11 @@ messageEl.textContent=message
 
 
 
-
+// let data=["orange","apple",true,false,123,["hello",["innerarray","test"],123,true,false]]
+// console.log(data[5][1][0])
+// console.log(data[0])
+// console.log(data[1])
+// console.log(data[2])
+// console.log(data[3])
+// console.log(data[4])
 
