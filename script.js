@@ -11,6 +11,11 @@ let cardEl=document.getElementById("cards-el")
 
 function startGame(){
 
+    renderGame()
+}
+
+function renderGame(){
+
     if(sum === 21){
 
     message="you won balackjack"
@@ -44,7 +49,7 @@ function newCard(){
     let card=6
     sum+=card
     // sum=sum+card
-    startGame()
+    renderGame()
 }
 
 
