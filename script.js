@@ -122,3 +122,12 @@ function helper(){
 }
 let messageFromFn=helper()
 console.log(messageFromFn)
+
+let a=3
+let b=6
+function mult(){
+    return a*b
+}
+
+let finalResult=mult()
+console.log(finalResult)
