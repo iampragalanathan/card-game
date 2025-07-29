@@ -94,9 +94,12 @@ function newCard(){
 
 // }
 
-let sentences=["Good Morning","Get there soon","JS is cool","React is fun","had dinner?"]
+// let sentences=["Good Morning","Get there soon","JS is cool","React is fun","had dinner?"]
 
-for(i=0;i<sentences.length;i++){
+// for(i=0;i<sentences.length;i++){
 
-    console.log(sentences[i])
-}
+//     // console.log(sentences[i])
+//     // document.getElementById("dummy").textContent=document.getElementById("dummy").textContent+sentences[i]
+//     const dummyPtag=document.getElementById("dummy")
+//     dummyPtag.textContent+=sentences[i]+ " "
+// }
