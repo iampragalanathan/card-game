@@ -72,11 +72,18 @@ function newCard(){
 // cards.push(newItem)
 // console.log(cards)
 
+
+// for loop 
+
 // for (let count=1; count<10;count=count+2){
 //     console.log(count)
 
 // }
 
 // for (let count=1;count<=17;count=count+3){
+//     console.log(count)
+// }
+
+// for (let count=15;count>0;count=count-1){
 //     console.log(count)
 // }
