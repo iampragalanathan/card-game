@@ -1,5 +1,6 @@
 let firstCard=3
 let secondCard=6
+let cards=[firstCard, secondCard]
 let sum=firstCard+secondCard
 
 let hasBlackJack=false
@@ -54,17 +55,17 @@ function newCard(){
 
 
 
-let cards=[4,10]
-cards.push("hello",101)
-console.log(cards)
+// let cards=[4,10]
+// cards.push("hello",101)
+// console.log(cards)
 
-cards.pop()
-console.log(cards)
+// cards.pop()
+// console.log(cards)
 
-cards.pop()
-console.log(cards)
+// cards.pop()
+// console.log(cards)
 
-// let newItem=("hey I am array")
-let newItem=["hey I am array"]
-cards.push(newItem)
-console.log(cards)
+// // let newItem=("hey I am array")
+// let newItem=["hey I am array"]
+// cards.push(newItem)
+// console.log(cards)
