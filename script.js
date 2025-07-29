@@ -53,8 +53,12 @@ function newCard(){
     cards.push(card)
     // console.log(cards)
     renderGame()
+    
 }
-
+for(let i=0;i<cards.length;i++){
+     
+    
+}
 
 
 // let cards=[4,10]
