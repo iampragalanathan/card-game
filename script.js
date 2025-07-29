@@ -1,5 +1,5 @@
-let firstCard= rollDice()
-let secondCard= rollDice()
+let firstCard= getRandomCard()
+let secondCard= getRandomCard()
 let cards=[firstCard, secondCard]
 let sum=firstCard+secondCard
 
@@ -52,7 +52,7 @@ else{
 
 function newCard(){
     
-    let card=rollDice()
+    let card=getRandomCard()
     sum+=card
     // sum=sum+card
     cards.push(card)
@@ -61,13 +61,10 @@ function newCard(){
     
 }
 
-function rollDice(){
-    let randomDiceNumber=Math.floor(Math.random()*6)+1
-    
-    return randomDiceNumber
-    
+function getRandomCard(){
+
+    return 5
 }
-console.log(rollDice())
 
 
 // let cards=[4,10]
@@ -142,3 +139,10 @@ console.log(rollDice())
 // let randomNumber=Math.floor(Math.random()*6)
 // console.log(randomNumber)
 
+function rollDice(){
+    let randomDiceNumber=Math.floor(Math.random()*6)+1
+    
+    return randomDiceNumber
+    
+}
+console.log(rollDice())
