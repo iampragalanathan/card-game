@@ -68,13 +68,16 @@ function getRandomCard(){
     if(randomNumber===1){
         return 11
     }
-    else if(randomNumber===11){
-        return 10
-    }
-    else if(randomNumber===12){
-        return 10
-    }
-    else if (randomNumber===13){
+    // else if(randomNumber===11){
+    //     return 10
+    // }
+    // else if(randomNumber===12){
+    //     return 10
+    // }
+    // else if (randomNumber===13){
+    //     return 10
+    // }
+    else if(randomNumber>10){
         return 10
     }
     else{
