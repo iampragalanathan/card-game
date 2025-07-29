@@ -109,3 +109,11 @@ function newCard(){
 //     const dummyPtag=document.getElementById("dummy")
 //     dummyPtag.textContent+=sentences[i]+ " "
 // }
+
+
+function helper(){
+    let age=30
+    if (age<30){
+        return"you are "
+    }
+}
