@@ -66,10 +66,23 @@ function getRandomCard(){
    let randomNumber=Math.floor(Math.random()*13)+1
 //    return randomNumber
     if(randomNumber===1){
-        return 11
+        return "11"
     }
+    else if(randomNumber===11){
+        return "10"
+    }
+    else if(randomNumber===12){
+        return "10"
+    }
+    else if (randomNumber===13){
+        return "10"
+    }
+    else{
+        return randomNumber
+    }
+   
 }
-console.log(getRandomCard())
+// console.log(getRandomCard())
 
 // let cards=[4,10]
 // cards.push("hello",101)
