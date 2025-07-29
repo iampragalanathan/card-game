@@ -71,3 +71,7 @@ function newCard(){
 // let newItem=["hey I am array"]
 // cards.push(newItem)
 // console.log(cards)
+
+for (let count=1;count<10,count=count=2){
+
+}
