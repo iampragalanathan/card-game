@@ -4,14 +4,15 @@ let sum=0
 
 
 let hasBlackJack=false
-let isAlive=true
+let isAlive=false
 let message=""
 let messageEl=document.getElementById("message-el")
 let sumEl=document.getElementById("sum-el")
 let cardEl=document.getElementById("cards-el")
 
 function startGame(){
-
+    
+    isAlive=true
     let firstCard= getRandomCard()
     let secondCard= getRandomCard()
     cards=[firstCard,secondCard]
@@ -89,6 +90,16 @@ function getRandomCard(){
         return randomNumber
     }
    
+}
+
+let actionMovie=true
+let tomCruiseMovie=true
+
+if(actionMovie===true && tomCruiseMovie===false){
+    console.log("mission impossible loading")
+}
+else{
+    console.log("other action films are displayed")
 }
 // console.log(getRandomCard())
 
