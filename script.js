@@ -2,6 +2,7 @@
 let cards=[]
 let sum=0
 
+
 let hasBlackJack=false
 let isAlive=true
 let message=""
