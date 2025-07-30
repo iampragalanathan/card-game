@@ -101,6 +101,18 @@ function getRandomCard(){
 // else{
 //     console.log("other action films are displayed")
 // }
+
+let actionMovie=true
+let tomCruiseMovie=true
+
+if(actionMovie===true ||
+     tomCruiseMovie===true){
+    console.log("mission impossible loading")
+}
+else{
+    console.log("other action films are displayed")
+}
+
 // console.log(getRandomCard())
 
 // let cards=[4,10]
