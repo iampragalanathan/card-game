@@ -30,7 +30,7 @@ if(sum === 21){
 
     message="you won balackjack"
     console.log(message)
-    // hasBlackJack=true
+    hasBlackJack=true
 
 
 }
@@ -45,7 +45,7 @@ else{
     message="you're out of the game"
     console.log(message)
 
-    // isAlive=false
+    isAlive=false
     // console.log("this is else stmt" ,isAlive)
 }
     messageEl.textContent=message
@@ -56,13 +56,17 @@ else{
 
 
 function newCard(){
-    
-    let card=getRandomCard()
-    sum+=card
+     let card=getRandomCard()
+         sum+=card
     // sum=sum+card
     cards.push(card)
     // console.log(cards)
     renderGame()
+ 
+   if(hasBlackJack ===true && isAlive===false){
+   
+   }
+   
     
 }
 
@@ -102,16 +106,16 @@ function getRandomCard(){
 //     console.log("other action films are displayed")
 // }
 
-let actionMovie=true
-let tomCruiseMovie=true
+// let actionMovie=true
+// let tomCruiseMovie=true
 
-if(actionMovie===true ||
-     tomCruiseMovie===true){
-    console.log("mission impossible loading")
-}
-else{
-    console.log("other action films are displayed")
-}
+// if(actionMovie===true ||
+//      tomCruiseMovie===true){
+//     console.log("mission impossible loading")
+// }
+// else{
+//     console.log("other action films are displayed")
+// }
 
 // console.log(getRandomCard())
 
