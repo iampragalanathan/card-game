@@ -92,6 +92,16 @@ function getRandomCard(){
    
 }
 
+// let fruits=["apple","orange"]
+// console.log(fruits)
+// fruits.push("kiwi","banana")
+// console.log(fruits)
+// fruits.pop()
+// console.log(fruits)
+// fruits.shift()
+// console.log(fruits)
+// fruits.unshift("i am add")
+// console.log(fruits)
 // let actionMovie=true
 // let tomCruiseMovie=true
 
