@@ -95,7 +95,7 @@ function getRandomCard(){
 let actionMovie=true
 let tomCruiseMovie=true
 
-if(actionMovie===true && tomCruiseMovie===false){
+if(actionMovie===true && tomCruiseMovie===true){
     console.log("mission impossible loading")
 }
 else{
