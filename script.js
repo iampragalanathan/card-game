@@ -1,7 +1,6 @@
-let firstCard= getRandomCard()
-let secondCard= getRandomCard()
-let cards=[firstCard, secondCard]
-let sum=firstCard+secondCard
+
+let cards=[]
+let sum=0
 
 let hasBlackJack=false
 let isAlive=true
@@ -12,6 +11,10 @@ let cardEl=document.getElementById("cards-el")
 
 function startGame(){
 
+    let firstCard= getRandomCard()
+    let secondCard= getRandomCard()
+    cards=[firstCard,secondCard]
+    sum=firstCard+secondCard
     renderGame()
 }
 
@@ -80,6 +83,7 @@ function getRandomCard(){
     else if(randomNumber>10){
         return 10
     }
+
     else{
         return randomNumber
     }
